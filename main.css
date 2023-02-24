@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* transition: all 0.3s ease-in; */
+  text-transform: capitalize;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.428571429;
+}
+body {
+  background: #9db9e3 !important;
+}
+.main {
+  padding: 100px 0;
+}
+.item {
+  margin-top: 40px;
+}
+.body-item {
+  padding: 50px;
+}
+.p-left {
+  padding-left: 20px;
+}
+.left {
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.right {
+  background-color: #4042c4;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.h3-title {
+  margin-bottom: 30px;
+}
+.form-select,
+.form-control {
+  border: none;
+  outline: none;
+  border-bottom: 0.5px solid;
+  border-radius: inherit;
+}
+.right .body-item .item .form-select,
+.right .body-item .item .form-control {
+  background-color: #4042c4;
+  color: #fff;
+  opacity: 70%;
+}
+
+/* .form-select-indicator: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='#{$form-select-indicator-color}' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/></svg>"); */
+
+.right .body-item .item .form-select::placeholder,
+.right .body-item .item .form-control::placeholder {
+  color: #fff;
+  opacity: 100%;
+}
+.left .body-item .item .form-select,
+.left .body-item .item .form-control {
+  color: #999999;
+}
+.left .body-item .item .form-select::placeholder,
+.left .body-item .item .form-control::placeholder {
+  color: #999999;
+}
+.left .body-item .item .form-select,
+.right .body-item .item .form-control,
+.left .body-item .item .form-select::placeholder,
+.right .body-item .item .form-control::placeholder {
+  font-size: 15px;
+}
+.check-text {
+  font-size: 13px;
+  color: #fff;
+}
+.a-accept {
+  text-decoration: underline;
+  color: #fff;
+  font-weight: 700;
+}
+.a-accept:hover {
+  color: #b8b2b2;
+  cursor: pointer;
+}
+.btn-register {
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.btn-register:hover {
+  background: #bab2b2;
+  color: #fff;
+}
+
+/* border: none;
+outline: none;
+border-bottom: 1px solid;
+border-radius: inherit; */
